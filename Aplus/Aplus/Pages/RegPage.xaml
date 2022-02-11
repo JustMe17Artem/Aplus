@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplus.Pages.RegPage">
+    <ScrollView>
+        <FlexLayout  Direction="Column" >
+            <Entry x:Name="Login" 
+                Placeholder="Email"
+                TextColor="Black" 
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center" Margin="30, 70, 30, 0"/>
+            <Entry x:Name="Mail" 
+                Placeholder="Login"
+                IsPassword="True" 
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="Black" Margin="30, 50, 30, 0"/>
+            <Entry x:Name="EPassword" 
+                Placeholder="Password"
+                IsPassword="True" 
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="Black" Margin="30, 50, 30, 0"/>
+            <Entry x:Name="EPasswordReturn" 
+                Placeholder="Password"
+                IsPassword="True" 
+                HeightRequest="55" 
+                HorizontalTextAlignment="Center"
+                TextColor="Black" Margin="30, 50, 30, 0"/>
+            <Button x:Name="Registration" Clicked="RegistrationVerification_Clicked" Text="Зарегистрироваться" Margin="30, 50, 30, 0" HeightRequest="60"/>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplus.Pages.AuthoPage">
+    <ScrollView>
+        <FlexLayout Direction="Column" JustifyContent="SpaceAround" AlignContent="Center" >
+            <StackLayout >
+                <Frame CornerRadius="120" Padding="0" BackgroundColor="#303030"
+           IsClippedToBounds="True" HeightRequest="250" Margin="50, 0">
+                    <Image Source="https://cdn140.picsart.com/318675834007211.png" HorizontalOptions="Center" HeightRequest="300" WidthRequest="300" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Margin="30">
+                <Entry x:Name="UserLogin" 
+                    Placeholder="Login"
+                    TextColor="Black" 
+                    HeightRequest="55" 
+                    HorizontalTextAlignment="Center"/>
+                <Entry x:Name="Password"
+                    Placeholder="Password"
+                    IsPassword="True" 
+                    HeightRequest="55" 
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"/>
+                <FlexLayout Direction="Row" JustifyContent="SpaceBetween">
+                    <Button x:Name="Reg" Text="Зарегистроваться" 
+                        HeightRequest="55" FontSize="10" WidthRequest="140" Clicked="Reg_Clicked"/>
+                    <Button x:Name="Login" Text="Войти" FlexLayout.AlignSelf="End" 
+                        HeightRequest="55" FontSize="10" WidthRequest="140" Clicked="Login_Clicked"/>
+                </FlexLayout>
+            </StackLayout>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>
