@@ -14,5 +14,5 @@ C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\XamlC.sta
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Aplus.dll
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\ref\Aplus.dll
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Aplus.pdb
-C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\Projects_Page.xaml.g.cs
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Aplus.csproj.AssemblyReference.cache
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectsPage.xaml.g.cs

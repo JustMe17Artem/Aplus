@@ -1,33 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Aplus.Pages.RegPage">
-    <ScrollView>
-        <FlexLayout  Direction="Column" >
-            <Entry x:Name="Login" 
-                Placeholder="Email"
-                TextColor="Black" 
-                HeightRequest="55" 
-                HorizontalTextAlignment="Center" Margin="30, 70, 30, 0"/>
-            <Entry x:Name="Mail" 
-                Placeholder="Login"
-                IsPassword="True" 
-                HeightRequest="55" 
-                HorizontalTextAlignment="Center"
-                TextColor="Black" Margin="30, 50, 30, 0"/>
-            <Entry x:Name="EPassword" 
-                Placeholder="Password"
-                IsPassword="True" 
-                HeightRequest="55" 
-                HorizontalTextAlignment="Center"
-                TextColor="Black" Margin="30, 50, 30, 0"/>
-            <Entry x:Name="EPasswordReturn" 
-                Placeholder="Password"
-                IsPassword="True" 
-                HeightRequest="55" 
-                HorizontalTextAlignment="Center"
-                TextColor="Black" Margin="30, 50, 30, 0"/>
-            <Button x:Name="Registration" Clicked="RegistrationVerification_Clicked" Text="Зарегистрироваться" Margin="30, 50, 30, 0" HeightRequest="60"/>
-        </FlexLayout>
-    </ScrollView>
+             x:Class="Aplus.Pages.RegPage"  Title="
+             Регистрация">
+    <FlexLayout Direction="Column" Margin="40,10,40,10">
+        <StackLayout>
+            <Entry BackgroundColor="#e8e8e8"
+                   Placeholder="Логин" 
+                   Margin="0,35,0,0" 
+                   HeightRequest="60"
+                   x:Name="ELogin"
+                   Visual="Material"/>
+
+            <Entry BackgroundColor="#e8e8e8"
+                   Placeholder="Email" 
+                   Margin="0,35,0,0"
+                   HeightRequest="60"
+                   x:Name="EEmail"
+                   Visual="Material"/>
+
+            <Entry BackgroundColor="#e8e8e8"
+                   Placeholder="Пароль" 
+                   Margin="0, 35,0,0" 
+                   HeightRequest="60"
+                   x:Name="EPassword"
+                   IsPassword="True"
+                   Visual="Material"/>
+
+            <Entry BackgroundColor="#e8e8e8"
+                   Placeholder="Пароль" 
+                   Margin="0,35,0,-40" 
+                   HeightRequest="60"
+                   x:Name="EReturnPassword"
+                   IsPassword="True"
+                   Visual="Material"/>
+
+        </StackLayout>
+
+        <StackLayout Margin="0,204,0,0">
+            <Button x:Name="BRegistration" 
+                    Text="Зарегистрироваться" 
+                    CornerRadius="200"
+                    FontSize="10"
+                    BackgroundColor="#00b2ff"
+                    TextColor="White"/>
+        </StackLayout>
+    </FlexLayout>
 </ContentPage>

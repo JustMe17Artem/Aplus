@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplus.Android", "Aplus\Aplus.Android\Aplus.Android.csproj", "{6E95B0CB-5C52-4B60-B4F3-2EC5E252C996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplus", "Aplus\Aplus\Aplus.csproj", "{24BF2B49-2618-45AE-91B9-F0F8E1570266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplus", "Aplus\Aplus\Aplus.csproj", "{24BF2B49-2618-45AE-91B9-F0F8E1570266}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
