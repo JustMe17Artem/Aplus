@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Aplus.Pages.SelectedProjectPage">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+             x:Class="Aplus.Pages.SelectedProjectPage"
+             xmlns:local="clr-namespace:Aplus.Pages.ProjectInfoPages"
+             Title="{Binding Name}">
+    <TabbedPage.Children>
+        <local:InfoProjectPage Title="О проекте"/>
+        <local:ImagesProjectPage Title="Картинки"/>
+        <local:ContactsProjectPage Title="Контакты"/>
+    </TabbedPage.Children>
 </TabbedPage>

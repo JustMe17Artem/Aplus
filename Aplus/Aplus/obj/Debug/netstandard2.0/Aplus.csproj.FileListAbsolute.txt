@@ -18,3 +18,6 @@ C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Aplus.csp
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectsPage.xaml.g.cs
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\SelectedProjectPage.xaml.g.cs
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\AddNewProjectPage.xaml.g.cs
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectInfoPages\ContactsProjectPage.xaml.g.cs
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectInfoPages\ImagesProjectPage.xaml.g.cs
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectInfoPages\InfoProjectPage.xaml.g.cs
