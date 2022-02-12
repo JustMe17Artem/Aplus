@@ -661,3 +661,5 @@ C:\Users\Guest\source\repos\Aplus\Aplus\Aplus.Android\obj\Debug\110\android\asse
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus.Android\obj\Debug\110\res\drawable\plus.png
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus.Android\obj\Debug\110\res\drawable\edit.png
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus.Android\obj\Debug\110\res\drawable\project_image.png
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus.Android\obj\Debug\110\res\drawable\delete.png

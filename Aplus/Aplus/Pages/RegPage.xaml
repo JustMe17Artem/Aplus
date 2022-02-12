@@ -41,7 +41,9 @@
             <Button x:Name="BRegistration" 
                     Text="Зарегистрироваться" 
                     CornerRadius="200"
-                    FontSize="10"
+                    FontSize="9.6"
+                    WidthRequest="149"
+                    HeightRequest="49"
                     BackgroundColor="#00b2ff"
                     TextColor="White"/>
         </StackLayout>
