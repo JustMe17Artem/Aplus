@@ -2,11 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Aplus.Pages.ProjectInfoPages.ContactsProjectPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="edit.png" Priority="0" Order="Primary" x:Name="BtnEdit" Clicked="BtnEdit_Clicked"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
+
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout VerticalOptions="Center" Margin="0, 40, 0, 0">
+
+                <Entry Placeholder="Телефон №1" 
+                           PlaceholderColor="Gray"  
+                           x:Name="EPhoneOne" 
+                           TextColor="Black"
+                           Text="{Binding Phone}"
+                           BackgroundColor="#e8e8e8"
+                           HeightRequest="60"
+                           Margin="40, 10, 40, 0"
+                           Visual="Material"
+                           IsReadOnly="True"/>
+                <Entry Placeholder="E-mail"
+                           Margin="40,30,40,0"
+                           PlaceholderColor="Gray"
+                           TextColor="Black"
+                           Text="{Binding Email}"
+                           x:Name="EEmail"                           
+                           BackgroundColor="#e8e8e8"
+                           HeightRequest="60"
+                           Visual="Material"
+                           IsReadOnly="True"/>
+
+                <Entry Placeholder="Адресс"
+                           Margin="40,30,40,0"
+                           PlaceholderColor="Gray"
+                           TextColor="Black"
+                           Text="{Binding Address}"
+                           x:Name="EAddress"                          
+                           BackgroundColor="#e8e8e8"
+                           HeightRequest="60"
+                           Visual="Material"
+                           IsReadOnly="True"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

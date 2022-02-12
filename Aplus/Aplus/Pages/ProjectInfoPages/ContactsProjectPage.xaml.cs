@@ -16,5 +16,11 @@ namespace Aplus.Pages.ProjectInfoPages
         {
             InitializeComponent();
         }
+
+
+        private void BtnEdit_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
