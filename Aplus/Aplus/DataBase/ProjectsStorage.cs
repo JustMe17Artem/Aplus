@@ -3,7 +3,7 @@ using SQLite;
 
 namespace Aplus.DataBase
 {
-    class ProjectsStorage
+    internal class ProjectsStorage
     {
         SQLiteConnection database;
         public ProjectsStorage(string databasePath)
@@ -11,7 +11,7 @@ namespace Aplus.DataBase
             database = new SQLiteConnection(databasePath);
             database.CreateTable<Project>();
         }
-        public IEnumerable<Project> GetItems()
+        public  IEnumerable<Project> GetItems()
         {
             return database.Table<Project>().ToList();
         }
