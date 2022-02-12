@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Aplus.DataBase;
 
 namespace Aplus.Pages
 {
@@ -15,6 +16,14 @@ namespace Aplus.Pages
         public SelectedProjectPage()
         {
             InitializeComponent();
+        }
+
+        private async void BtnEdit_Clicked(object sender, EventArgs e)
+        {
+            var project = (Project)BindingContext;
+            EditProjectPage projectPage = new EditProjectPage();
+            projectPage.BindingContext = project;
+            await Navigation.PushAsync(projectPage);
         }
     }
 }

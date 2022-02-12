@@ -21,3 +21,4 @@ C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\Add
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectInfoPages\ContactsProjectPage.xaml.g.cs
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectInfoPages\ImagesProjectPage.xaml.g.cs
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectInfoPages\InfoProjectPage.xaml.g.cs
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\EditProjectPage.xaml.g.cs

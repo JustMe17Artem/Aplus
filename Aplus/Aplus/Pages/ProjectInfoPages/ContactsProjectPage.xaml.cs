@@ -15,12 +15,6 @@ namespace Aplus.Pages.ProjectInfoPages
         public ContactsProjectPage()
         {
             InitializeComponent();
-        }
-
-
-        private void BtnEdit_Clicked(object sender, EventArgs e)
-        {
-
-        }
+        }  
     }
 }

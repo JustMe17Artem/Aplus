@@ -16,9 +16,11 @@ namespace Aplus.Pages
         {
             InitializeComponent();
         }
-        private async void RegistrationVerification_Clicked(object sender, EventArgs e)
+       
+
+        private async void BtnRegistrate_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PopAsync();
         }
     }
 }

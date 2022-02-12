@@ -38,7 +38,8 @@
         </StackLayout>
 
         <StackLayout Margin="0,204,0,0">
-            <Button x:Name="BRegistration" 
+            <Button x:Name="BtnRegistrate" 
+                    Clicked="BtnRegistrate_Clicked"
                     Text="Зарегистрироваться" 
                     CornerRadius="200"
                     FontSize="9.6"
