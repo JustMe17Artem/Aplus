@@ -60,7 +60,7 @@
                         Clicked="BtnAddProject_Clicked"
                         HeightRequest="49"
                         WidthRequest="149"
-                        FontSize="13"
+                        FontSize="9.6"
                         Margin="0, 30, 11, 0"/>
                     
                     <Button Text="Отмена" 
@@ -71,7 +71,7 @@
                         Clicked="BtnCancel_Clicked"
                         HeightRequest="49"
                         WidthRequest="149"
-                        FontSize="13"
+                        FontSize="9.6"
                         Margin="0, 30, 10, 0"/>
 
                    

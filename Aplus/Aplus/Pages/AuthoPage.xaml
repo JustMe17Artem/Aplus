@@ -35,20 +35,20 @@
                         TextColor="White" 
                         x:Name="BRegistration" 
                         Clicked="Reg_Clicked"
-                        HeightRequest="60"
-                        WidthRequest="220"
-                        FontSize="9"
+                        HeightRequest="49"
+                        WidthRequest="149"
+                        FontSize="9.6"
                         Margin="0,5,11,0"/>
 
                     <Button Text="Войти" 
-                        CornerRadius="250" 
+                        CornerRadius="200" 
                         BackgroundColor="#00b2ff" 
                         TextColor="White" 
                         x:Name="BLogin" 
                         Clicked="Login_Clicked"
-                        HeightRequest="60"
-                        WidthRequest="220"
-                        FontSize="9"
+                        HeightRequest="49"
+                        WidthRequest="149"
+                        FontSize="9.6"
                         Margin="11,5,0,0"/>
                 </FlexLayout>
             </StackLayout>
