@@ -17,3 +17,4 @@ C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Aplus.pdb
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Aplus.csproj.AssemblyReference.cache
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\ProjectsPage.xaml.g.cs
 C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\SelectedProjectPage.xaml.g.cs
+C:\Users\Guest\source\repos\Aplus\Aplus\Aplus\obj\Debug\netstandard2.0\Pages\AddNewProjectPage.xaml.g.cs

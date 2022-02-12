@@ -19,8 +19,6 @@ namespace Aplus.Pages
         public ProjectsPage()
         {
             InitializeComponent();
-           
-           
         }
 
         private async void Selected_Project_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -31,19 +29,15 @@ namespace Aplus.Pages
             await Navigation.PushAsync(selectedProjectPage);
         }
         
-
-        private void AddNewProject_Clicked(object sender, EventArgs e)
+        private async void AddNewProject_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new AddNewProjectPage());
         }
         protected override void OnAppearing()
         {
             LVProjects.ItemsSource = App.Db.GetItems();
             base.OnAppearing();
         }
-        private void UpdateList()
-        {
-            LVProjects.ItemsSource = App.Db.GetItems();
-        }
+        
     }
 }
